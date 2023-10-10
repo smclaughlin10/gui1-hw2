@@ -1,0 +1,108 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body {
+	background-color: #00569f;
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #010035;
+	color: #FFFFFF;
+}
+
+.resort {
+	font-weight: bold;
+	color: #4D85AF;
+}
+
+nav {
+	width: 200px;
+	background-color: #8FC8E3;
+	font-weight: bold;
+	float: left;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	color: #06002C;
+	padding-left: 20px;
+}
+
+nav a {
+	color: #010035;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #344873;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	color: #FFFFFF;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#wrapper {
+	margin: auto;
+	width: 80%;
+	min-width: 600px;
+	background-color: #8FC8E3;
+}
+
+#content {
+	margin-left: 200px;
+	padding-left: 30px;
+	padding-top: 1px;
+	background-color: #FFFFFF;
+}
+
+#content img {
+	float: left;
+	padding-right: 25px;
+}
+
+#content p, #content ul {
+	font-size: 1.1em;
+}
+
+#content li {
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+	line-height: 125%;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+footer {
+	font-size: 0.8em;
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	font-style: italic;
+	margin-left: 200px;
+	padding: 20px;
+}
+
